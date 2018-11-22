@@ -1,0 +1,82 @@
+#container {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+#map-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+}
+#map {
+  height: 100%;
+  right: 0;
+}
+.listView {
+  height: 100%;
+  background-color: white;
+  width: 20%;
+  position: absolute;
+  left: 0;
+  padding: 0 15px;
+  border-radius:0 10px 10px 0;
+}
+.nav{
+background-color: #222a3e;
+color: #E6E6E6;
+padding: 15px;
+text-transform: uppercase;
+text-align: center;
+font-weight: bold;
+font-size: calc(1em + .2vw);
+}
+.infoWindow{
+  width: 150px;
+}
+.form-control{
+  border: 1px solid #737373;
+  border-radius: 2px;
+  padding: 5px;
+  font-size: 1em;
+  width: 95%;
+  margin: 10px auto;
+  height: 30px;
+  box-shadow: 1px -2px 7px 0px #888888 ;
+}
+
+   
+.main{
+height: 100%;
+}
+ul{
+ padding:0;
+ list-style-type: square;
+}
+li{
+  padding:15px 0;
+  font-size: calc(1em + .1vw);
+  list-style-type: none;
+  border-bottom: 2px solid #d0d0d0;
+  font-weight: 600;
+  text-align: center;
+}
+li:hover{
+  background-color: #494949;
+  color: white;
+}
+@media screen and (max-width: 800px) {
+ul{
+font-size: 10px;
+}
+.listView{
+  width: 50%;
+}
+}
+
+.collapsible{
+  position: fixed;
+  z-index: 10000;
+  
+}
